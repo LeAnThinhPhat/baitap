@@ -1,0 +1,138 @@
+.failed {
+	color: red;
+}
+* {
+	margin: 0px auto;
+	padding: 0px;
+	font-size:16px;
+	font-family: Roboto;
+}
+.navbar{
+	left:0;
+	top:0;
+	width: 100%;
+	background-color: white;
+	border:none;
+	border-radius:0px !important;
+	margin: 0 !important;
+}
+.navbar .top-header{
+	height: 100px;
+	padding:25px 130px;
+	background-color: white;
+}
+.navbar .main-header{
+	background-color: #0e1d61;
+	height: 50px;
+	padding:0px 130px;
+	color: white;
+	display: flex;
+    justify-content: center;
+}
+.top-header .navbar-right>li>a{
+	color: black;
+}
+.top-header .navbar-right>li>a:hover{
+	color: yellow;
+}
+.top-header .navbar-right .icon{
+	border-left: 1px solid black;	
+	height: 50%;
+}
+.main-header .nav{
+	width:100%;
+}
+.main-header .navbar-nav .input-group{
+	margin-top:8px;
+	width: 100%;
+}
+.main-header .navbar-nav .input-group .btn-search{
+	padding: 8px 12px !important;	
+}
+.main-header .navbar-nav>li>a{
+	color: white;
+}
+.main-header .navbar-nav>li>a:hover{
+	color: yellow;
+}
+.slide{
+	width:100%;
+	margin: 0px 0px 20px 0px !important;
+}
+.carousel-inner .item img{
+	height: 400px;
+	width: 100%;
+}
+.container .title{
+	text-align: center;
+}
+.container .title h1{
+	color: #0e1d61;
+	font-weight: 700 !important;
+}
+.container .products{
+	text-align: center;
+	padding: 0px !important;
+}
+.container .product{
+	border-radius: 5px;
+	border: solid 1px black;
+	padding: 15px;
+	margin: 5px 5px 0px 0px;
+	width: 24%;
+	min-height: 350px;
+}
+.container .detail-product{
+	border-radius: 5px;
+	border: 1px solid black;
+	padding: 10px;
+	margin-top: 70px;
+}
+.card-title{
+	color:#0e1d61;
+	font-weight:900;
+}
+.btn-add-to-cart{
+	background-color: #0e1d61;
+	color: white;
+	margin-top: -4px !important;
+	padding: 3px 12px !important;
+}
+.btn-add-to-cart:hover{
+	background-color: #0e1d61;
+	color: yellow !important;
+}
+footer {
+	width: 100%;
+	background-color: #0e1d61;
+	color: white;
+	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+}
+footer .footer1{
+	padding: 20px 0px;
+	
+}
+footer .footer1 .row{
+	width: 1170px;
+}
+footer .footer1 h4{
+	color: yellow;
+}
+footer .footer1 a{
+	color: white;
+}
+footer .footer1 a:hover{
+	color: yellow !important;
+}
+footer .absolute-footer{
+	background-color: rgba(0, 0, 0, 0.2);
+	width: 100%;
+}
+footer .absolute-footer a{
+	color: white;
+}
+footer .absolute-footer a:hover{
+	color: yellow !important;
+}
